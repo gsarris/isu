@@ -3,33 +3,33 @@
     android:orientation="horizontal"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:padding="10dp"
+    android:gravity="top"
     style="?android:attr/buttonBarStyle">
 
     <Button
         android:id="@+id/iSuMain"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@drawable/widget_bg"
+        android:background="@drawable/button"
         android:gravity="center"
-        android:text="SU"
         android:textColor="@color/text_white"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp"
+        android:textStyle="bold"
         style="?android:attr/buttonBarStyle" />
 
     <Button
         android:id="@+id/iSuMonitor"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@drawable/widget_bg"
+        android:background="@drawable/button"
         android:gravity="center"
-        android:text="SELinux"
         android:textColor="@color/text_white"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp"
+        android:textStyle="bold"
         style="?android:attr/buttonBarStyle" />
 
 </LinearLayout>
